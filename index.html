@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo do Detona-Ralph</title>
+
+    <!-- Importando a font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&family=Press+Start+2P&family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+
+    <!-- Importando o CSS -->
+    <link rel="stylesheet" href="./src/styles/main.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="menu">
+            <div class="menu-time">
+                <h2 style="color: red;">Time Left</h2>
+                <h2 class="cont" id="time-left">0</h2>
+            </div>
+            <div class="menu-score">
+                <h2 style="color: red;">Your score</h2>
+                <h2 class="cont" id="score">0</h2>
+            </div>
+            <div class="menu-lives">
+                <img src="./src/images/player.png" alt="">
+                <h2 id="lives">3</h2>
+            </div>
+        </div>
+
+        <div class="painel">
+            <div class="game-start active">
+                <div class="game-mode">
+                    <button id="easy" class="mode" data-mode="easy">Easy</button> 
+                    <button id="medium" class="mode" data-mode="medium">Medium</button>
+                    <button id="hard" class="mode" data-mode="hard">Hard</button>
+                    <button id="impossible" class="mode" data-mode="impossible">Impossible</button>
+                </div>
+                <div class="text">
+                    <h2>Escolha o modo de jogo!</h2>
+                    <p id="start">Start</p>
+                </div>
+            </div>
+            <div class="painer-row">
+                <div class="square enemy" id="1"></div>
+                <div class="square" id="2"></div>
+                <div class="square" id="3"></div>
+            </div>
+
+            <div class="painer-row">
+                <div class="square" id="4"></div>
+                <div class="square" id="5"></div>
+                <div class="square" id="6"></div>
+            </div>
+
+            <div class="painer-row">
+                <div class="square" id="7"></div>
+                <div class="square" id="8"></div>
+                <div class="square" id="9"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./src/scripts/engine.js"></script>
+</body>
+
+</html>
