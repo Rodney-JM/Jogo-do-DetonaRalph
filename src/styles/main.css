@@ -35,7 +35,7 @@
     align-items: center;
     justify-content: center;
 
-    background-image: url(/src/images/wall.png);
+    background-image: url(./src/images/wall.png);
     height: 1000px;
 }
 
@@ -86,7 +86,7 @@
 }
 
 .enemy{
-    background-image: url(/src/images/ralph.png);
+    background-image: url(./src/images/ralph.png);
     background-size: cover;
 }
 
