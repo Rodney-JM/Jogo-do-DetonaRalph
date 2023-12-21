@@ -86,7 +86,7 @@
 }
 
 .enemy{
-    background-image: url(https://github.com/Rodney-JM/Jogo-do-DetonaRalph/blob/57572f062daf2855366c6bfe401e87eaad66c411/src/images/ralph.png);
+    background-image: url(src/images/ralph.png);
     background-size: cover;
 }
 
