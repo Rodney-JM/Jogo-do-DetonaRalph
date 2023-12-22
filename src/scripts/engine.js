@@ -36,7 +36,7 @@ const state = {
             switch(mode){
                 case 'easy':
                     state.value.gameVelocity = 1000;
-                break;
+                    break;
                 case 'medium':
                     state.value.gameVelocity = 850;
                     break;
